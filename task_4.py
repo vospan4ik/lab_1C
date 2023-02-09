@@ -3,7 +3,7 @@
 """
 # создание матрицы необходимой размерности
 n, m = 12, 10
-matrix = [[0] * 10 for _ in range(12)]
+matrix = [[0] * m for _ in range(n)]
 
 count = 1
 for i in range(n - 1, -1, -1):

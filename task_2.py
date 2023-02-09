@@ -14,10 +14,10 @@ v_2 = [int(num) for num in input('Введите вторую версию: ').s
 # сравнение списков по старшинству
 if v_1 > v_2:
     print('Более старшая версия:')
-    print(*v_1, sep='.')
+    print(*v_2, sep='.')
 elif v_2 > v_1:
     print('Более старшая версия:')
-    print(*v_2, sep='.')
+    print(*v_1, sep='.')
 else:
     print('Версии одинаковые:')
     print(*v_1, sep='.')
